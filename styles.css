@@ -3,18 +3,26 @@
   padding-right: -15px;
 }
 
-.col-lg-3{
-  background-color: blue;
+.col-lg-2{
+  background-color: #00B5E2;
 }
-.col-lg-6{
-  background-color: red;
+.col-lg-8{
+  background-color: #00629B;
 }
 .dropdown-toggle:hover .dropdown-menu{
     display: block;
 }
 
 body{
-  background-color: white;
+  background-color: #00629B;
   //white
   //IEEE Color - #00629B
+}
+
+.navbar{
+ background-color: ;
+}
+
+.footer{
+ background-color: black;
 }
