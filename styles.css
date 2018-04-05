@@ -54,7 +54,7 @@ src: local('Formata-Light'), url('./styles/FormataLight.woff') format('woff');
 
 .col-lg-2{
   background-color: #00B5E2;
-  min-height: 80vh;
+  height: 80vh;
 }
 
 .left{
