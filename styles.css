@@ -1,19 +1,72 @@
+@font-face {
+font-family: 'Formata-Light';
+font-style: normal;
+font-weight: normal;
+src: local('Formata-Light'), url('./styles/FormataLight.woff') format('woff');
+}
+
+
 .html, body{
   height: 100%;
 }
+
 .banner{
   padding-left: -15px;
   padding-right: -15px;
+  position: relative;
+  text-align: center;
+  color: white;
+}
+
+.logo{
+  position: absolute;
+  top: 63%;
+  left: 10%;
+  transform: translate(-50%, -50%);
+  width: 160px;
+  height: 100px;
+  display: block;
+}
+
+.imgtext1{
+  position: absolute;
+  top: 60%;
+  left: 29%;
+  transform: translate(-50%, -50%);
+  font-family: Formata-Light;
+  font-weight: normal;
+  font-size: 50px;
+  color: #64b4e2;
+  display: block;
+}
+
+.imgtext2{
+  position: absolute;
+  top: 80%;
+  left: 25%;
+  transform: translate(-50%, -50%);
+  font-family: Formata-Light;
+  font-weight: normal;
+  font-size: 20px;
+  color: #64b4e2;
+  display: block;
 }
 
 .col-lg-2{
   background-color: #00B5E2;
-  border-style: solid;
-  border-width: 2px;
-  height: 100%;
+  min-height: 80vh;
+}
+
+.left{
+  border-right: 2px solid;
+}
+
+.right{
+  border-left: 2px solid;
 }
 
 .col-lg-8{
+  width: 68vw;
   background-color: #00629B;
 }
 .dropdown-toggle:hover .dropdown-menu{
@@ -37,6 +90,30 @@ body{
 p{
   color:#00B5E2;
 }
+
+h1{
+  font-size: 30px;
+  color: #505050;
+}
+
+h2{
+  font-size: 24px;
+  color: #505050;
+}
+
+h3{
+  color: #505050;
+}
+
+.p2{
+  font-family: Arial, Geneva, sans-serif;
+  font-size: 18px;
+}
+
+.grey{
+  color: #505050;
+}
+
 hr {
     display: block;
     margin-top: 0.5em;
@@ -45,6 +122,10 @@ hr {
     margin-right: auto;
     border-style: inset;
     border-width: 1px;
+}
+
+.para{
+  margin: 20px;
 }
 
 .card {
