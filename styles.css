@@ -10,6 +10,7 @@ src: local('Formata-Light'), url('./styles/FormataLight.woff') format('woff');
   height: 100%;
 }
 
+
 .banner{
   padding-left: -15px;
   padding-right: -15px;
@@ -69,8 +70,13 @@ src: local('Formata-Light'), url('./styles/FormataLight.woff') format('woff');
   width: 68vw;
   background-color: #00629B;
 }
-.dropdown-toggle:hover .dropdown-menu{
-    display: block;
+
+.dropdown li:hover{
+  visibilty: visible;
+}
+
+.dropdown:hover .dropdown-menu {
+  display: block;
 }
 
 body{
